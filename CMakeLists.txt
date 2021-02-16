@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.0)
-project(aardvark VERSION 0.3.0)
+project(linkedlist VERSION 0.0.1)
 
 set(PROJECT_SOURCE_DIR "src")
 set(DOXYGEN_OUPUT_DIR "doxygen")
@@ -7,7 +7,8 @@ set(DOXYGEN_HTML_OUPUT_DIR "../docs")
 set(DOXYGEN_IN_FILE "Doxyfile.in")
 # Be sure to change the executable name, 
 # and change the input file name if it is different.
-add_executable(doxygenTry1 ${PROJECT_SOURCE_DIR}/main.cpp)
+add_executable(SLL ${PROJECT_SOURCE_DIR}/main.cpp)
+add_executable(DLL ${PROJECT_SOURCE_DIR}/main.cpp)
 
 include(CTest)
 enable_testing()
