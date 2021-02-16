@@ -1,9 +1,9 @@
 /**
  * @file main.cpp
- * @brief This is a test of CMake, doxygen, and GitHub.
- * @details This is the long brief at the top of main.cpp.
- * @author Seth McNeill
- * @date 1/28/2021
+ * @brief This is a linked list implemtation.
+ * @details This code pays around with linked list  .
+ * @author Addis Bogale
+ * @date 2/15/2021
  * 
  */
 
